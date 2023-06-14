@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+body {
+    background: #F5F3F0;
+    color: #211107;
+}
+
+.git-search {
+    max-width: 650px;
+    margin: 150px auto;
+}
+
+.git-search__input {
+    position: relative;
+    background: #fff;
+    padding: 1rem;
+    width: 100%;
+    border: 1px solid #211107;
+    border-radius: 5px;
+}
+
+.git-search__res {
+    width: 100%;
+    height: 130px;
+    overflow-y: auto;
+}
+
+.git-search__autocomplete {
+    background-color: #fff;
+    padding: 10px 15px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    border-top: none;
+    cursor: pointer;
+}
+
+.git-search__list {}
+
+.git-search__repo {
+    background: #fff;
+    padding: 1rem;
+    width: 100%;
+    border: 1px solid #211107;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.git-search__repo {
+    cursor: pointer;
+}
